@@ -1,11 +1,13 @@
 from turtle import *
+#we want to draw house
 
-#we want to paint house
+#step 1:   draw a square
 
-#step 1:  draw a square
-speed(1000000)
+
+
+speed(999999999999999999)
 width(7)
-color("purple")
+color("brown")
 forward(250) 
 left(90)
 
@@ -17,12 +19,9 @@ left(90)
 
 forward(300)
 left(90)
-#end of square
-
-#drawing a door
 
 forward(100)
-color("yellow")
+color("brown")
 begin_fill()
 left(90)
 forward(120)     #height of the door
@@ -35,14 +34,14 @@ end_fill()
 penup()
 goto(0, 300)
 pendown()
-color("red")
+color("green")
 begin_fill()
 left(140)
 forward(210)
 right(105)
 forward(200)
 end_fill()
-color("brown")
+color("yellow")
 penup()
 goto(100, 180)
 pendown()
@@ -57,4 +56,32 @@ left(90)
 forward(60)
 left(90)
 end_fill()
+
+penup()
+goto(-600,450)
+pendown()
+color("yellow")
+begin_fill()
+right(90)
+forward(50)
+
+right(90)
+forward(50)
+
+right(90)
+forward(50)
+
+right(90)
+forward(50)
+end_fill()
+
+
+
+
+
+
+
+
+
+
 exitonclick()
